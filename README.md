@@ -6,26 +6,7 @@ Note: Google's Closure JavaScript library is not required to use Closure Templat
 
 ## Templates
 
-Closure Templates allow you to compile HTML templates into JavaScript functions. 
-
-Given this template: 
-
-    {namespace example.templates}
-
-    /**
-     * @param name
-     */
-    {template .hello}
-      <h1>Hello, {$name}</h1>
-    {/template}
-
-You can invoke the template from JavaScript like this:
-
-    var html = example.templates.hello({name:'Matt'})
-
-Full documentation can be found [here](http://code.google.com/closure/templates/docs/overview.html).
-
-## Usage
+Closure Templates allow you to compile HTML templates into JavaScript functions. The template file includes a namespace declaration followed by one or more templates. 
 
 Example file: webapp/soy/task.soy
 
@@ -63,7 +44,13 @@ Example file: webapp/soy/task.soy
       </table>
     {/template}
 
-## Declaring in resources
+You can invoke the template from JavaScript like this:
+
+    var html = example.templates.hello({name:'Matt'});
+
+Full documentation can be found [here](http://code.google.com/closure/templates/docs/overview.html).
+
+## Usage
 
     modules = {
     
@@ -74,3 +61,10 @@ Example file: webapp/soy/task.soy
             resource url: '/soy/task.soy', attrs:[type:'js']
         }
     }
+    
+Note:
+
+*   The template file must have a .soy extension
+*   attrs[type] must be set to 'js'
+*   'soyutils' must be in the dependsOn list. If you're using Google Closure JavaScript library, 'soyutils_usegoog' should be used instead.
+
