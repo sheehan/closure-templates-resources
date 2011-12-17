@@ -46,7 +46,7 @@ Example file: webapp/soy/task.soy
 
 You can invoke the template from JavaScript like this:
 
-    var html = example.templates.hello({name:'Matt'});
+    var html = grails.views.task.show({name:'Pay bills', dateDue: '11/11/2011'});
 
 Full documentation can be found [here](http://code.google.com/closure/templates/docs/overview.html).
 
