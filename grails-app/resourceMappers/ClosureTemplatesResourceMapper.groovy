@@ -4,7 +4,6 @@
  * Mapping file to compile .soy files into .js files.
  */
 
-import com.asual.lesscss.LessEngine
 import com.google.template.soy.SoyFileSet
 import com.google.template.soy.jssrc.SoyJsSrcOptions
 import org.codehaus.groovy.grails.commons.GrailsApplication
