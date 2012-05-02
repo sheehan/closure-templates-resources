@@ -1,3 +1,5 @@
+package org.grails.plugin.closuretemplatesresources
+
 /**
  * @author Matt Sheehan
  *
