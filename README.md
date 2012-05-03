@@ -1,14 +1,14 @@
 # Closure Templates Resources plug-in for Grails
 
-This plug-in converts HTML templates into JavaScript functions using Google's [Closure Templates](https://developers.google.com/closure/templates/).
+This plug-in converts HTML templates into JavaScript functions using Google's Closure Templates.
 
 Closure Templates Documentation: https://developers.google.com/closure/templates/
 
-Note: Google's Closure JavaScript library is not required to use [Closure Templates](https://developers.google.com/closure/templates/).
+Note: Google's Closure JavaScript library is not required to use Closure Templates.
 
 ## Templates
 
-[Closure Templates](https://developers.google.com/closure/templates/) allow you to compile HTML templates into JavaScript functions. The template file includes a namespace declaration followed by one or more templates.
+Closure Templates allow you to compile HTML templates into JavaScript functions. The template file includes a namespace declaration followed by one or more templates.
 
 Example file: webapp/soy/task.soy
 
