@@ -15,12 +15,13 @@ Example file: webapp/soy/task.soy
     {namespace grails.views.task}
 
     /**
-     * @param taskInstance
+     * @param $name
+     * @param $dateDue
      */
     {template .show}
       <div>
-        <div>Name: {$taskInstance.name}</div>
-        <div>Date Due: {$taskInstance.dateDue}</div>
+        <div>Name: {$name}</div>
+        <div>Date Due: {$dateDue}</div>
       </div>
     {/template}
 
