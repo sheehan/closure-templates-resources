@@ -2,7 +2,7 @@
 
 This plug-in converts HTML templates into JavaScript functions using Google's [Closure Templates](https://developers.google.com/closure/templates/).
 
-Note: Google's Closure JavaScript library is not required to use Closure Templates.
+Note: Google's Closure JavaScript library is not required to use [Closure Templates](https://developers.google.com/closure/templates/).
 
 ## Templates
 
