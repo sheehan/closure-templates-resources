@@ -48,7 +48,7 @@ The templates are then available as JavaScript functions on the namespace object
 
     var html = grails.views.task.show({name:'Pay bills', dateDue: '11/11/2011'});
 
-Then the html can be inserted into the DOM:
+The html can then be inserted into the DOM:
 
     document.getElementById('myContainer').innerHTML = html;
 
