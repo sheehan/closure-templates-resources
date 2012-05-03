@@ -44,11 +44,11 @@ Example file: webapp/soy/task.soy
       </table>
     {/template}
 
-The templates are then available as JavaScript functions on the namespace object. You can invoke the template from JavaScript like this:
+You can invoke the template from JavaScript using the namespace and the template name like this:
 
     var html = grails.views.task.show({name:'Pay bills', dateDue: '11/11/2011'});
 
-The html can then be inserted into the DOM:
+The resulting html can then be inserted into the DOM:
 
     document.getElementById('myContainer').innerHTML = html;
 
