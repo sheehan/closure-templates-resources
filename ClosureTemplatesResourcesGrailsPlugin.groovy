@@ -11,13 +11,15 @@ class ClosureTemplatesResourcesGrailsPlugin {
         "grails-app/views/error.gsp"
     ]
 
-    def title = "Closure Templates Resources Plugin" // Headline display name of the plugin
+    def license = "APACHE"
+    def issueManagement = [ system: "github", url: "https://github.com/sheehan/closure-templates-resources/issues" ]
+    def scm = [ url: "https://github.com/sheehan/closure-templates-resources" ]
+
+    def title = "Closure Templates Resources Plugin"
     def author = "Matt Sheehan"
-    def authorEmail = ""
+    def authorEmail = "mr.sheehan@gmail.com"
     def description = '''\
 This plugin supports server-side compilation of .soy template files to JavaScript files.
 '''
-
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/closure-templates-resources"
+    def documentation = "https://github.com/sheehan/closure-templates-resources/blob/master/README.md"
 }
