@@ -6,7 +6,7 @@ Note: Google's Closure JavaScript library is not required to use Closure Templat
 
 ## Templates
 
-Closure Templates allow you to compile HTML templates into JavaScript functions. The template file includes a namespace declaration followed by one or more templates. 
+[Closure Templates](https://developers.google.com/closure/templates/) allow you to compile HTML templates into JavaScript functions. The template file includes a namespace declaration followed by one or more templates.
 
 Example file: webapp/soy/task.soy
 
