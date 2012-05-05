@@ -32,5 +32,6 @@ grails.project.dependency.resolution = {
     plugins {
         build ":tomcat:$grailsVersion"
         build ":release:2.0.0"
+        runtime ":resources:1.1.6"
     }
 }
