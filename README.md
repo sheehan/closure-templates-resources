@@ -15,8 +15,8 @@ Example file: webapp/soy/task.soy
     {namespace grails.views.task}
 
     /**
-     * @param $name
-     * @param $dateDue
+     * @param name
+     * @param dateDue
      */
     {template .show}
       <div>
