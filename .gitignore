@@ -4,3 +4,7 @@ plugin.xml
 target
 .settings
 web-app/WEB-INF
+.classpath
+.idea
+.project
+*.iml
